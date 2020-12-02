@@ -1,0 +1,42 @@
+.innermain{
+    width:230px;
+    background-color: white;
+    border-radius: 4px !important;
+    cursor:pointer;
+    margin-right: 10px;
+    transition: 400ms;
+}
+
+.innermain:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.innermain img{
+    width:100%;
+    object-fit: contain;
+}
+ .textbelow{
+    color: rgb(68, 66, 66);
+    padding:10px;
+    font-size: 18px;
+}
+.price{
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
+}
+.cutoff{
+    position: relative;
+    width: 50px;
+    height: 24px;
+    top:8px;
+    background-color: #feefde;
+    color: #f68b1e;
+    font-size: 1.25rem;
+    font-weight: bold;
+    justify-content: center;
+    line-height: 1.2;
+    align-items: center;
+    margin-left:170px;
+    z-index: 100;
+}

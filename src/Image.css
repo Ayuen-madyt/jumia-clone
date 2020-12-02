@@ -1,0 +1,17 @@
+.image{
+    display: flex;
+    width:1380px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 308px;
+    margin-top: 20px;
+    border-radius: 4px !important;
+    padding:10px;
+    background-color: white;
+}
+.image img{
+    width:100%;
+    object-fit: contain;
+    height:100%;
+    border-radius: 4px !important;
+}
